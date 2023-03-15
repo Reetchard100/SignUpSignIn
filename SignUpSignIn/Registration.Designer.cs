@@ -70,6 +70,7 @@ namespace SignUpSignIn
             this.btnSign.TabIndex = 3;
             this.btnSign.Text = "Sign Up";
             this.btnSign.UseVisualStyleBackColor = true;
+            this.btnSign.Click += new System.EventHandler(this.btnSign_Click);
             // 
             // btnLogin
             // 
@@ -80,6 +81,7 @@ namespace SignUpSignIn
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "Have account already? Log in Now!";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // label1
             // 
